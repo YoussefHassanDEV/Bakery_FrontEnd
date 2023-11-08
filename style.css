@@ -1,0 +1,400 @@
+/*Global Styles*/
+html,
+body {
+    height: 100vh;
+    margin: 0;
+}
+
+.clr {
+    clear: both;
+}
+
+/*Global Styles*/
+
+/*home_page*/
+
+.home_page {
+    background-image: url(./images/drew-coffman-1872.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.home_page .nav {
+    background-color: transparent;
+}
+
+.home_page .nav .img_nav {
+    margin-top: 2vh;
+    margin-left: 8vh;
+    padding-left: 8vh;
+    width: 33%;
+    float: left;
+}
+
+.home_page .nav .img_nav img {
+    height: 48px;
+}
+
+.home_page .nav .list_nav {
+    width: 40%;
+    float: right;
+}
+
+.home_page .nav .list_nav ul {
+    margin-right: 0;
+}
+
+.home_page .nav .list_nav li {
+    float: left;
+    font-size: 18px;
+    list-style-type: none;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.home_page .nav .list_nav li a {
+    text-decoration: none;
+    color: white;
+}
+
+.home_page .contex {
+    margin-top: 22vh;
+    color: white;
+    text-align: center;
+}
+
+.home_page .contex .line_1 {
+    color: white;
+    font-weight: 400;
+    font-size: 22px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.home_page .contex h1 {
+
+    font-weight: 400;
+    font-style: normal;
+    font-variant: normal;
+    font-kerning: auto;
+    font-optical-sizing: auto;
+    font-stretch: 100%;
+    font-variation-settings: normal;
+    font-feature-settings: normal;
+    text-transform: none;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-align: center;
+    text-indent: 0px;
+    margin: 0;
+    padding: 0;
+}
+
+.home_page .contex .line_3 {
+    font-size: 24px;
+    text-align: center;
+}
+
+.home_page .contex .btn {
+    vertical-align: middle;
+}
+
+.home_page .contex .btn button {
+    color: white;
+    font-size: 16px;
+    padding: 15px 28px;
+    border-radius: 3px;
+    border: none;
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.home_page .bg_tan {
+    background-color: #8E7754;
+}
+
+.home_page .bg_white {
+    border: 10px white solid;
+    border-bottom: 10px white solid;
+    background-color: transparent;
+
+}
+
+/*home_page*/
+
+/*About*/
+
+.About {
+    height: 80vh;
+}
+
+.About .sec {
+    margin: 10vh;
+}
+
+.About .sec .left_sec {
+    width: 40%;
+    margin-left: 5vh;
+    float: left;
+}
+
+.About .sec .left_sec img {
+    width: 560px;
+
+}
+
+.About .sec .right_sec {
+    padding-top: 5vh;
+    padding-right: 25vh;
+    width: 40%;
+    float: right;
+}
+
+.About .sec .right_sec .line_1 {
+    font-size: 32px;
+}
+
+.About .sec .right_sec .line_2 {
+    color: rgb(104, 104, 104);
+    font-size: 17px;
+}
+
+.About .sec .right_sec .contex_1 {}
+
+.About .sec .right_sec .contex_1 ._img {
+    float: left;
+}
+
+.About .sec .right_sec .contex_1 ._img img {
+    width: 44px;
+}
+
+.About .sec .right_sec .contex_1 ._right {
+    float: left;
+    padding-top: 12px;
+    font-size: 17px;
+    color: rgb(104, 104, 104);
+}
+
+/*About*/
+
+/*Our location*/
+
+.our_location {
+    height: 90vh;
+    background-color: #F8F8F8;
+}
+
+.our_location .contex {
+    padding-left: 20vh;
+    margin-top: 25vh;
+    width: 70vh;
+    float: left;
+}
+
+.our_location .contex .line_1 {
+    font-size: 32px;
+}
+
+.our_location .contex .line_2 {
+    color: #686868;
+    font-size: 17px;
+}
+
+.our_location ._img {
+    margin-top: 10vh;
+    float: right;
+}
+
+.our_location ._img img {
+    padding-right: 20vh;
+    width: 560px;
+}
+
+/*Our location*/
+
+/*Our baking*/
+
+.our_baking {
+    border-collapse: separate;
+    border-spacing: 20px 0;
+    height: 100vh;
+    background-color: white;
+}
+
+.our_baking h3 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.our_baking .p1 {
+    text-align: center;
+    color: #888888;
+    font-size: 17px;
+}
+
+.our_baking table {
+    border-collapse: separate;
+    border-spacing: 40px 0;
+    border-style: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.our_baking table tr h4 {
+    color: (48, 48, 48);
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.our_baking table tr p {
+    width: 365px;
+    color: RGB(104, 104, 104);
+    text-align: center;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.our_baking table img {
+    width: 365px;
+}
+
+/*Our baking*/
+
+/*contact_information*/
+
+.contact_information {
+    height: 100vh;
+    background-color: #F8F8F8
+}
+
+.contact_information .contex {
+    margin-top: 20vh;
+    margin-left: 25vh;
+    width: 60vh;
+    float: left;
+}
+
+.contact_information .contex h2 {
+    color: black;
+    font-size: 32px;
+    font-weight: 400;
+    /* text-align: center; */
+}
+
+.contact_information .contex p {
+    color: RGB(104, 104, 104);
+    font-size: 17px;
+    width: 600px;
+    line-height: 31.62px;
+    vertical-align: baseline
+}
+
+.contact_information .map {
+    margin-top: 20vh;
+    margin-right: 20vh;
+    float: right;
+}
+
+.contact_information .map iframe {
+    width: 560px;
+    height: 560px;
+}
+
+.contact_information .contex .cont {
+    font-size: 17px;
+    padding-top: 12px;
+    margin-right: 10px;
+    float: left;
+}
+
+.contact_information .contex ._img {
+    float: left;
+}
+
+.contact_information .contex img {
+    width: 44px;
+}
+
+/*contact_information*/
+
+/*Menu*/
+.menu {
+    height: 50vh;
+    background-color: #403D38;
+    background-image: url(./images/contact-details-map.png);
+    background-repeat: no-repeat;
+    background-position: right 70px center;
+}
+
+.menu table {
+    margin-left: 10vh;
+    color: white;
+    border-collapse: separate;
+    border-spacing: 80px 0;
+    vertical-align: middle;
+}
+
+.menu table tr td {
+    width: 350px;
+    margin: 0;
+    padding: 0;
+}
+
+.menu table tr {
+    margin: 0;
+    padding: 0;
+}
+
+.menu table h4 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.menu table p {
+    font-size: 16px;
+    color: #969696;
+}
+
+.menu table p1 {
+    font-size: 16px;
+    color: #969696;
+
+}
+
+
+/*Menu*/
+
+/*copyright*/
+
+.copyright {
+    height: 45vh;
+    width: 100%;
+    background-color: #353330;
+}
+
+.copyright .img_1 img {
+    display: block;
+    padding-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.copyright .icons{
+    margin-left: 44%;
+}
+.copyright .icons img{
+    width: 44px;
+    float: left;
+}
+
+.copyright p {
+    color: #777777;
+    font-size:15px;
+    text-align: center;
+}
+
+/*copyright*/
